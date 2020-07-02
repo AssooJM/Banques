@@ -46,7 +46,7 @@ Client >> debloquer [
 { #category : #operation }
 Client >> depot: aNumber [
 	self compte etat
-		ifFalse: [Transcript show: 'Votre Compte est bloqué'.
+		ifFalse: [Transcript show: 'Votre compte est bloqué'.
 			 ^ false ].
 	aNumber < 1
 		ifTrue: [ ^ false ]
